@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assupols",
+  "info": {
+    "singularName": "assupol",
+    "pluralName": "assupols",
+    "displayName": "Assupol",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmailContent": {
+      "type": "richtext"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "pdfName": {
+      "type": "string"
+    },
+    "Html": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "PageFormate": {
+      "type": "string"
+    },
+    "SMSContent": {
+      "type": "richtext"
+    }
+  }
+}

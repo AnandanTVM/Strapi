@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anandans",
+  "info": {
+    "singularName": "anandan",
+    "pluralName": "anandans",
+    "displayName": "Anandan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Subject": {
+      "type": "string"
+    },
+    "Condent": {
+      "type": "text"
+    }
+  }
+}
