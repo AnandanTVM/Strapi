@@ -1,5 +1,5 @@
 {
-  "name": "my-email-strapi",
+  "name": "assupol-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,18 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.13.7",
-    "@strapi/plugin-users-permissions": "4.13.7",
-    "@strapi/provider-email-sendgrid": "^4.13.7",
-    "@strapi/strapi": "4.13.7",
-    "better-sqlite3": "8.6.0"
+    "@strapi/strapi": "4.14.2",
+    "@strapi/plugin-users-permissions": "4.14.2",
+    "@strapi/plugin-i18n": "4.14.2",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "b6ae8868-713d-4192-a4b3-9412c00abd3b"
+    "uuid": "cf4f5eed-2e86-4c46-85fe-90e9adf6c4dc"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
